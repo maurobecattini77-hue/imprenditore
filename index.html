@@ -5,6 +5,71 @@
 
 
 <script src="assets/a06.js"></script>
+
+
+
+
+
+<style>
+/* ============ RIFINITURE 25/07 ============ */
+/* la lentina nuova deve vincere anche sui moduli che hanno un <style> nel body */
+.zoomabile > .lente{
+  width:44px !important; height:44px !important; border-radius:50% !important;
+  top:10px !important; right:10px !important;
+  background:rgba(255,255,255,.94) !important; border:1px solid #D9DACF !important;
+}
+.zoomabile > .lente svg{ width:22px !important; height:22px !important; }
+@media (hover:hover) and (pointer:fine){
+  .zoomabile > .lente{ opacity:0 !important; pointer-events:none !important; }
+  .zoomabile:hover > .lente, .zoomabile:focus-within > .lente{
+    opacity:1 !important; pointer-events:auto !important; }
+}
+@media (hover:none){
+  .zoomabile > .lente{ opacity:1 !important; width:38px !important; height:38px !important;
+    top:8px !important; right:8px !important; }
+  .zoomabile > .lente svg{ width:20px !important; height:20px !important; }
+}
+/* il guscio che avvolge la singola foto, quando il contenitore non si presta */
+.zoom-foto{ position:relative; display:block; line-height:0; }
+/* i moduli senza classi: l'etichetta sta su section E su div */
+
+
+
+}
+</style>
+
+
+
+
+
+<style>
+/* ============ STATO SICURO 25/07 (azienda, imprenditore) ============
+   Qui la colonna 880 non c'e': va fatta reimpaginando le card, non a colpi di CSS.
+   Resta tutto il resto, che e' collaudato. */
+#velofoto, #velografica{ background:#262420 !important; }
+#velofoto img{ border-radius:8px; }
+.zoomabile{ position:relative; }
+.zoom-foto{ position:relative; display:block; line-height:0; }
+.zoomabile > .lente{
+  position:absolute; top:10px; right:10px; width:44px !important; height:44px !important;
+  border-radius:50% !important; border:1px solid #D9DACF !important;
+  background:rgba(255,255,255,.94) !important; color:#57534a;
+  display:flex; align-items:center; justify-content:center; cursor:zoom-in; padding:0; z-index:3;
+  transition:opacity .16s ease, transform .16s ease;
+}
+.zoomabile > .lente svg{ width:22px !important; height:22px !important; display:block; }
+.zoomabile > .lente:hover{ background:#fff !important; transform:scale(1.06); }
+@media (hover:hover) and (pointer:fine){
+  .zoomabile > .lente{ opacity:0 !important; pointer-events:none !important; }
+  .zoomabile:hover > .lente, .zoomabile:focus-within > .lente{
+    opacity:1 !important; pointer-events:auto !important; }
+}
+@media (hover:none){
+  .zoomabile > .lente{ opacity:1 !important; width:38px !important; height:38px !important; }
+  .zoomabile > .lente svg{ width:20px !important; height:20px !important; }
+}
+@media print{ .zoomabile > .lente{ display:none !important; } }
+</style>
 </head>
 <body>
 <x-dc>
@@ -518,7 +583,7 @@ svg.mappa { max-width:1020px; margin-left:auto; margin-right:auto; }
       <section data-screen-label="Panoramica" style="background:#F8F8F3;border:1px solid #D9DACF;border-radius:22px;overflow:hidden;margin-bottom:8px;">
         <div style="padding:16px 16px 0;">
           <div style="position:relative;border-radius:8px;overflow:hidden;border:1px solid #D9DACF;">
-            <img src="assets/a03.png" alt="Un imprenditore di spalle osserva un muro pieno di appunti: business plan, concept, rischi, struttura, analisi di mercato, finanza, team, vantaggio" style="display:block;width:100%;height:auto;">
+            <img loading="lazy" decoding="async" src="assets/a03.png" alt="Un imprenditore di spalle osserva un muro pieno di appunti: business plan, concept, rischi, struttura, analisi di mercato, finanza, team, vantaggio" style="display:block;width:100%;height:auto;">
             <div style="position:absolute;left:0;right:0;bottom:0;height:46%;background:linear-gradient(to top, rgba(38,36,32,.62), transparent);"></div>
           </div>
         </div>
@@ -615,7 +680,7 @@ svg.mappa { max-width:1020px; margin-left:auto; margin-right:auto; }
         <h2 style="font-family:'Fraunces',serif;font-weight:600;font-size:34px;line-height:1.08;letter-spacing:-.8px;margin:14px 0 18px;position:relative;">L'impresa individuale.</h2>
         <p style="font-size:19px;line-height:1.74;margin:0 0 18px;">La forma più semplice è l'<strong>impresa individuale</strong>: un <strong>solo titolare</strong> possiede l'attività e la manda avanti. Decide tutto lui, tiene per sé tutti i guadagni e si prende tutti i rischi. È il caso della maggior parte delle piccole pasticcerie e panetterie di paese, quelle che trovi in ogni via delle Langhe, da Neive ad Alba, spesso con il nome del titolare scritto proprio sull'insegna.</p>
         <div data-noprint="1" style="margin:22px 0 4px;">
-          <img src="assets/a00.jpg" alt="Un panettiere lavora da solo il pane nel suo laboratorio artigiano" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid #D9DACF;">
+          <img loading="lazy" decoding="async" src="assets/a00.jpg" alt="Un panettiere lavora da solo il pane nel suo laboratorio artigiano" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid #D9DACF;">
         </div>
         <p style="font-size:19px;line-height:1.74;margin:0 0 18px;">Ed è qui il punto più importante da capire. Facciamo un esempio concreto: una pasticcera apre da sola il suo laboratorio, ma l'attività va male e restano 30.000 euro di debiti verso i fornitori. Se i soldi dell'attività non bastano, i fornitori possono farsi pagare anche con i suoi risparmi personali, con la sua auto, perfino con la sua casa. Il suo rischio non si ferma alla porta del laboratorio: arriva fino a casa sua.</p>
         <p style="font-size:19px;line-height:1.74;margin:0;">Questo si chiama, con un termine tecnico, <strong style="background:linear-gradient(transparent 64%, rgba(235,200,113,.62) 64%);">responsabilità illimitata</strong>. Teniamo a mente questa parola, perché più avanti incontreremo forme in cui il rischio è molto più protetto.</p>
@@ -643,7 +708,7 @@ svg.mappa { max-width:1020px; margin-left:auto; margin-right:auto; }
         <p style="font-size:19px;line-height:1.74;margin:0 0 18px;">Vi possono collaborare il coniuge, i parenti entro il terzo grado e gli affini entro il secondo. Attenzione però: il <strong>titolare resta uno solo</strong>, ed è lui ad avere la responsabilità illimitata e a decidere la gestione di ogni giorno. I <strong style="background:linear-gradient(transparent 64%, rgba(235,200,113,.62) 64%);">familiari collaboratori</strong> non rispondono dei debiti dell'impresa, ma in cambio del loro lavoro hanno diritto al mantenimento e a una parte degli utili, in proporzione al lavoro svolto.</p>
         <p style="font-size:19px;line-height:1.74;margin:0;">Esempio: una pasticceria di famiglia in cui il genitore è il titolare, mentre i figli aiutano stabilmente in laboratorio e al banco. Non sono semplici "aiutanti gratis": la legge riconosce loro dei diritti precisi.</p>
           </div>
-          <img data-noprint="1" src="assets/a01.jpg" alt="Una famiglia lavora insieme nella propria trattoria di campagna" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid #D9DACF;">
+          <img loading="lazy" decoding="async" data-noprint="1" src="assets/a01.jpg" alt="Una famiglia lavora insieme nella propria trattoria di campagna" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid #D9DACF;">
         </div>
         <div style="margin-top:26px;background:#fff;border:1px solid #D9DACF;border-top:3px solid #7B66A4;border-radius:16px;padding:22px 24px;"><div style="display:inline-flex;align-items:center;gap:7px;background:rgba(123,102,164,.16);color:#5a4a72;border-radius:999px;padding:5px 13px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px;">Impresa familiare · art. 230-bis</div><div style="text-align:center;"><div style="border:1.5px solid #7B66A4;border-left-width:7px;border-bottom-width:7px;display:inline-block;background:#f3f0f8;border-radius:14px;padding:13px 26px;"><div style="font-family:'Fraunces',serif;font-weight:600;font-size:18px;">Un solo titolare</div><div style="font-size:12.5px;color:#827F75;margin-top:2px;">responsabile della gestione e dei debiti</div></div></div><div style="display:flex;flex-direction:column;align-items:center;gap:3px;margin:6px 0;"><div style="font-size:10.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#7B66A4;">vi collaborano</div><svg width="26" height="30" viewBox="0 0 40 54" fill="none" stroke="#7B66A4" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 C 16.5 20, 23.5 32, 20 47"></path><path d="M20 47 C 17 42.5, 15 40.5, 12.5 38"></path><path d="M20 47 C 23 42.5, 25 40.5, 27.5 38"></path></svg></div><div style="display:flex;flex-wrap:wrap;gap:9px;justify-content:center;"><span style="background:rgba(185,166,217,.2);border:1px solid #B9A6D9;color:#5a4a72;border-radius:999px;padding:7px 14px;font-size:14px;font-weight:600;">il coniuge</span><span style="background:rgba(185,166,217,.2);border:1px solid #B9A6D9;color:#5a4a72;border-radius:999px;padding:7px 14px;font-size:14px;font-weight:600;">parenti entro il 3° grado</span><span style="background:rgba(185,166,217,.2);border:1px solid #B9A6D9;color:#5a4a72;border-radius:999px;padding:7px 14px;font-size:14px;font-weight:600;">affini entro il 2° grado</span></div><div style="margin-top:16px;display:flex;align-items:center;justify-content:center;gap:9px;background:rgba(92,139,115,.1);border:1px solid rgba(92,139,115,.35);border-radius:12px;padding:12px 16px;"><i data-lucide="gift" class="lucide" style="font-size:18px;color:#3f6b52;"></i><span style="font-size:14.5px;font-weight:600;color:#3f6b52;">Diritti dei collaboratori: mantenimento + una parte degli utili</span></div></div>
       </section>
@@ -1437,7 +1502,7 @@ svg.mappa { max-width:1020px; margin-left:auto; margin-right:auto; }
   </main>
 
   <footer style="max-width:1180px;margin:0 auto;padding:30px 28px 56px;border-top:1px solid #D9DACF;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;text-align:left;">
-    <img src="assets/a02.png" alt="Logo Arte Bianca · IISS Cillario Ferrero · Neive" style="width:78px;height:78px;object-fit:contain;flex-shrink:0;">
+    <img data-lente="no" loading="lazy" decoding="async" src="assets/a02.png" alt="Logo Arte Bianca · IISS Cillario Ferrero · Neive" style="width:78px;height:78px;object-fit:contain;flex-shrink:0;">
     <div>
       <div style="font-family:'Fraunces',serif;font-weight:600;font-size:21px;line-height:1.08;letter-spacing:-.5px;color:#57534A;">IISS Cillario Ferrero</div>
       <div style="font-size:12.5px;color:#827F75;letter-spacing:.06em;text-transform:uppercase;margin-top:5px;">DTA · Arte Bianca · Classe Terza</div>
@@ -3198,7 +3263,7 @@ class Component extends DCLogic {
   justify-content:center;cursor:zoom-in;padding:0;z-index:3;}
 .zoomabile>.lente:hover{background:#EEF0EA;border-color:#C9C4B8;}
 .zoomabile>.lente svg{width:19px;height:19px;display:block;}
-#velografica{position:fixed;inset:0;background:rgba(38,36,32,.93);display:none;align-items:center;
+#velografica{position:fixed;inset:0;background:#262420;display:none;align-items:center;
   justify-content:center;z-index:1200;padding:34px 26px;}
 #velografica.on{display:flex;}
 #velografica .telaio{background:#F8F8F3;border:1px solid #D9DACF;border-radius:16px;
@@ -3223,9 +3288,11 @@ class Component extends DCLogic {
    Versione «gentile»: NON sposta nessun nodo (i moduli costruiti con React si romperebbero),
    marca il contenitore che c'e gia e ci appende il pulsante. */
 (function () {
-  var PIU = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" '
-          + 'stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.6"/>'
-          + '<path d="M15.4 15.4 L21 21 M10.5 7.6 v5.8 M7.6 10.5 h5.8"/></svg>';
+  var PIU = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+          + 'stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
+          + '<circle cx="10" cy="10" r="6.4"/>'
+          + '<path d="M14.9 14.9 L20.6 20.6"/>'
+          + '<path d="M10 6.9 v6.2 M6.9 10 h6.2"/></svg>';
   var velo, telaio;
 
   function costruisciVelo() {
@@ -3318,6 +3385,55 @@ class Component extends DCLogic {
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", avvia);
   else avvia();
+})();
+</script>
+
+<script>
+/* ============ IMPIANTO NUOVO 25/07/2026 - LA LENTINA SULLE FOTO ============
+   Regola di Mauro: il «+» va SOLO sulle foto che hanno definizione per essere
+   ingrandite (lato lungo >= 1400px). Le altre portano data-lente="no" e restano
+   senza pulsante e senza clic. Le mappe e le grafiche ce l'hanno sempre. */
+(function () {
+  var PIU = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+          + 'stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.4"/>'
+          + '<path d="M14.9 14.9 L20.6 20.6"/><path d="M10 6.9 v6.2 M6.9 10 h6.2"/></svg>';
+  var foto = [].slice.call(document.querySelectorAll('img')).filter(function (im) {
+    var s = im.getAttribute('src') || '';
+    if (s.indexOf('logo-arte-bianca') >= 0) return false;
+    return !im.closest('#velofoto') && !im.closest('#velografica') && !im.closest('.video-anteprima');
+  });
+  for (var i = 0; i < foto.length; i++) {
+    (function (img) {
+      if (img.getAttribute('data-lente') === 'no') { img.style.cursor = 'default'; return; }
+      var host = img.closest('.mos') || img.closest('.fotoblocco') || img.closest('.fotonuda');
+      if (!host) {
+        /* nessuna classe: avvolgo direttamente l'immagine, cosi' la lentina si
+           appoggia esattamente sopra di lei senza toccare i contenitori */
+        if (!img.parentNode) return;
+        host = document.createElement('span');
+        host.className = 'zoom-foto';
+        img.parentNode.insertBefore(host, img);
+        host.appendChild(img);
+      }
+      if (!host || !host.parentNode) return;
+      if (host.parentNode.classList && host.parentNode.classList.contains('zoomabile')) return;
+      var guscio = document.createElement('div');
+      guscio.className = 'zoomabile';
+      ['filo', 'sfonda', 'fotomedia', 'fotogrande'].forEach(function (c) {
+        if (host.classList.contains(c)) guscio.classList.add(c);
+      });
+      host.parentNode.insertBefore(guscio, host);
+      guscio.appendChild(host);
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'lente';
+      b.setAttribute('data-noprint', '1');
+      b.setAttribute('aria-label', 'Ingrandisci la foto');
+      b.setAttribute('title', 'Ingrandisci');
+      b.innerHTML = PIU;
+      b.addEventListener('click', function (ev) { ev.stopPropagation(); img.click(); });
+      guscio.appendChild(b);
+    })(foto[i]);
+  }
 })();
 </script>
 </body></html>
