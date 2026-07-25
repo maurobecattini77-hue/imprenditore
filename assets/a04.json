@@ -1,0 +1,280 @@
+{
+  "titolo": "Modulo 2 - Verifica - L'imprenditore e la nascita dell'impresa",
+  "materia": "Economia aziendale",
+  "sogliaSufficienza": 60,
+  "shuffle": true,
+  "domande": [
+    {
+      "id": "q1",
+      "type": "single",
+      "points": 1,
+      "question": "Chi, fra questi, è propriamente un imprenditore?",
+      "options": [
+        "Un dipendente assunto a tempo indeterminato con uno stipendio fisso.",
+        "Chi organizza le risorse di un'attività, prende le decisioni e si assume il rischio.",
+        "Solo chi possiede un grande capitale da investire.",
+        "Un consulente pagato a ore per una singola pratica."
+      ],
+      "correctIndex": 1,
+      "explanation": "L'imprenditore è chi organizza le risorse, decide e si assume il rischio d'impresa (guadagna o perde). Non conta il capitale posseduto, e non è un imprenditore chi lavora alle dipendenze di altri."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "points": 1,
+      "question": "Un titolare di impresa individuale chiude con 40.000 euro di debiti e in cassa ha solo 15.000 euro. Che cosa rischia?",
+      "options": [
+        "Nulla oltre i 15.000 euro presenti in cassa.",
+        "Solo i beni acquistati per l'attività, mai quelli personali.",
+        "Anche i propri beni personali, per i 25.000 euro che mancano.",
+        "Un'ammenda fissa stabilita dalla Camera di Commercio."
+      ],
+      "correctIndex": 2,
+      "explanation": "Nell'impresa individuale la responsabilità è illimitata: se il patrimonio dell'attività non basta, i creditori si rivalgono anche sui beni personali del titolare, quindi per i 25.000 euro mancanti."
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "points": 1,
+      "question": "Nell'impresa familiare (art. 230-bis), qual è la posizione dei familiari che collaborano stabilmente?",
+      "options": [
+        "Sono contitolari e rispondono dei debiti come il titolare.",
+        "Non hanno alcun diritto, perché il loro è un semplice aiuto.",
+        "Diventano automaticamente soci di una società di persone.",
+        "Hanno diritto al mantenimento e a una quota degli utili, ma il titolare resta uno solo."
+      ],
+      "correctIndex": 3,
+      "explanation": "Nell'impresa familiare il titolare è unico ed è l'unico responsabile dei debiti; i familiari collaboratori non rispondono delle obbligazioni, ma hanno diritto al mantenimento e a una parte degli utili in proporzione al lavoro svolto."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "points": 1,
+      "question": "In una SNC restano dei debiti e un socio non è in grado di pagare la sua parte. Che cosa accade?",
+      "options": [
+        "Gli altri soci devono coprire anche la sua parte, pure con i beni personali.",
+        "Il debito di quel socio viene semplicemente cancellato.",
+        "Ogni socio risponde soltanto della propria quota, punto.",
+        "Interviene la Camera di Commercio a saldare il debito."
+      ],
+      "correctIndex": 0,
+      "explanation": "Nelle società di persone la responsabilità è illimitata e solidale: il creditore può pretendere l'intero debito da uno qualsiasi dei soci, e se uno non paga la sua parte gli altri devono coprirla, anche con il patrimonio personale."
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "points": 1,
+      "question": "In una SAS, che differenza c'è tra accomandatario e accomandante?",
+      "options": [
+        "Sono due nomi diversi per lo stesso tipo di socio.",
+        "L'accomandatario gestisce e rischia tutto; l'accomandante mette solo capitale e rischia la sola quota.",
+        "L'accomandante gestisce l'attività, l'accomandatario si limita a investire.",
+        "Entrambi hanno responsabilità limitata alla quota versata."
+      ],
+      "correctIndex": 1,
+      "explanation": "Nella SAS l'accomandatario amministra la società e ha responsabilità illimitata; l'accomandante conferisce solo capitale, non gestisce e rischia soltanto la quota investita."
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "points": 1,
+      "question": "Perché, nelle società di capitali, i beni personali dei soci di norma restano al sicuro dai debiti della società?",
+      "options": [
+        "Perché la legge vieta ai creditori di agire contro le società.",
+        "Perché i soci non possono mai avere beni personali propri.",
+        "Perché c'è autonomia patrimoniale perfetta: i creditori si rivalgono solo sul patrimonio della società.",
+        "Perché i debiti delle società di capitali sono garantiti dallo Stato."
+      ],
+      "correctIndex": 2,
+      "explanation": "Le società di capitali hanno autonomia patrimoniale perfetta e responsabilità limitata: il patrimonio della società è separato da quello dei soci, e i creditori possono rivalersi solo sui beni della società."
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "points": 1,
+      "question": "Che cosa significa che una SRL o una SpA ha personalità giuridica?",
+      "options": [
+        "Che è considerata un soggetto distinto dai soci, con nome e patrimonio propri.",
+        "Che ogni socio possiede una carta d'identità dell'azienda.",
+        "Che i soci rispondono personalmente di tutti i debiti sociali.",
+        "Che la società non può firmare contratti in proprio nome."
+      ],
+      "correctIndex": 0,
+      "explanation": "La personalità giuridica rende la società un soggetto a sé, distinto dai soci: ha un proprio nome e un proprio patrimonio, possiede beni, firma contratti e ha debiti e crediti in prima persona."
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "points": 1,
+      "question": "Per quale di queste aperture è obbligatorio l'atto dal notaio?",
+      "options": [
+        "Per l'apertura di un'impresa individuale.",
+        "Per la costituzione di una SRL.",
+        "Per l'attribuzione della partita IVA.",
+        "Per l'invio della Comunicazione Unica."
+      ],
+      "correctIndex": 1,
+      "explanation": "Le società (come la SRL) si costituiscono dal notaio, che redige atto costitutivo e statuto. L'impresa individuale non richiede il notaio; la partita IVA e la ComUnica sono adempimenti successivi, non atti notarili."
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "points": 1,
+      "question": "Una nuova gelateria, presentata la SCIA allo Sportello Unico, apre subito. Qual è il ruolo del Comune?",
+      "options": [
+        "Deve prima rilasciare un'autorizzazione, senza la quale non si può aprire.",
+        "Non ha più alcun ruolo dopo la presentazione della SCIA.",
+        "Controlla entro 60 giorni la veridicità dei requisiti autocertificati.",
+        "Assegna la partita IVA collegata all'attività."
+      ],
+      "correctIndex": 2,
+      "explanation": "Con la SCIA l'imprenditore autocertifica i requisiti e parte subito; il controllo è successivo: il Comune ha 60 giorni per verificare ed eventualmente intervenire (silenzio-assenso se tutto è regolare)."
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "points": 1,
+      "question": "Un artigiano con partita IVA chiude l'anno in perdita. Deve comunque versare qualcosa all'INPS?",
+      "options": [
+        "No: se è in perdita, non versa alcun contributo.",
+        "Sì: i contributi degli artigiani sono in gran parte fissi e vanno versati anche in perdita.",
+        "No: i contributi si pagano solo oltre 85.000 euro di ricavi.",
+        "Sì, ma solo se ha alle dipendenze almeno un lavoratore."
+      ],
+      "correctIndex": 1,
+      "explanation": "Come visto nell'approfondimento sui costi di apertura, l'artigiano versa all'INPS dei contributi fissi (circa 4.500 euro l'anno) anche se guadagna poco o va in perdita; solo sulla parte di reddito oltre un minimale si aggiunge una percentuale."
+    },
+    {
+      "id": "q11",
+      "type": "multi",
+      "points": 1.2,
+      "question": "Quali affermazioni sulle società di persone sono corrette? (Seleziona 2 risposte)",
+      "options": [
+        "I soci rispondono dei debiti anche con i beni personali.",
+        "La responsabilità è solidale: un socio può essere chiamato a pagare tutto.",
+        "I soci rischiano solo il capitale versato, come nelle società di capitali.",
+        "Hanno sempre personalità giuridica perfetta.",
+        "Sono adatte soprattutto alle grandissime imprese quotate."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Nelle società di persone (SNC, SAS) la responsabilità è illimitata e solidale, con autonomia patrimoniale imperfetta. La responsabilità limitata e la personalità giuridica perfetta appartengono invece alle società di capitali."
+    },
+    {
+      "id": "q12",
+      "type": "multi",
+      "points": 1.2,
+      "question": "Quali affermazioni sull'iter di apertura di un'impresa sono corrette? (Seleziona 2 risposte)",
+      "options": [
+        "La Comunicazione Unica avvisa più enti con un solo invio telematico.",
+        "Il codice ATECO indica il tipo di attività economica svolta.",
+        "Per l'impresa individuale è sempre obbligatorio il notaio.",
+        "La SCIA serve a ottenere la partita IVA.",
+        "La PEC è vietata alle piccole imprese."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "La ComUnica unifica gli adempimenti; il codice ATECO classifica l'attività. Il notaio serve alle società (non all'individuale), la partita IVA si ottiene con la ComUnica (non con la SCIA) e la PEC è richiesta, non vietata."
+    },
+    {
+      "id": "q13",
+      "type": "multi",
+      "points": 1.2,
+      "question": "Quali affermazioni su azioni e borsa sono corrette? (Seleziona 2 risposte)",
+      "options": [
+        "Chi possiede azioni ha diritto a una parte degli utili, i dividendi.",
+        "In borsa il prezzo delle azioni sale e scende secondo la domanda e l'offerta.",
+        "Le azioni garantiscono sempre un guadagno certo a chi le compra.",
+        "Ferrero e Barilla sono quotate in borsa da molti anni.",
+        "Quotarsi in borsa non comporta alcun obbligo per la società."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Come spiega l'approfondimento sui mercati finanziari, l'azione dà diritto ai dividendi e il suo prezzo oscilla con domanda e offerta (quindi non garantisce un guadagno certo). Ferrero e Barilla restano familiari e non quotate, e quotarsi impone regole e trasparenza."
+    },
+    {
+      "id": "q14",
+      "type": "matching",
+      "points": 1.2,
+      "question": "Collega ogni forma giuridica alla sua caratteristica.",
+      "pairs": [
+        {
+          "item": "Impresa individuale",
+          "match": "Un solo titolare, con responsabilità illimitata."
+        },
+        {
+          "item": "SNC",
+          "match": "Tutti i soci gestiscono e rispondono in modo illimitato e solidale."
+        },
+        {
+          "item": "SRL",
+          "match": "Capitale in quote e responsabilità limitata."
+        },
+        {
+          "item": "SpA",
+          "match": "Capitale in azioni, adatta alle grandi imprese."
+        }
+      ],
+      "explanation": "L'impresa individuale ha un unico titolare a rischio illimitato; nella SNC tutti i soci gestiscono e rischiano; la SRL ha quote e responsabilità limitata; la SpA ha azioni e serve a raccogliere grandi capitali."
+    },
+    {
+      "id": "q15",
+      "type": "matching",
+      "points": 1.2,
+      "question": "Collega ogni elemento dell'apertura alla sua funzione.",
+      "pairs": [
+        {
+          "item": "Codice ATECO",
+          "match": "Classifica il tipo di attività svolta."
+        },
+        {
+          "item": "Notaio",
+          "match": "Redige l'atto costitutivo e lo statuto delle società."
+        },
+        {
+          "item": "Comunicazione Unica",
+          "match": "Un solo invio per iscriversi a tutti gli enti."
+        },
+        {
+          "item": "SCIA",
+          "match": "Consente di iniziare subito l'attività."
+        }
+      ],
+      "explanation": "Il codice ATECO indica l'attività; il notaio dà vita alle società con atto costitutivo e statuto; la ComUnica avvisa in un colpo tutti gli enti; la SCIA fa partire subito l'attività grazie all'autocertificazione."
+    },
+    {
+      "id": "q16",
+      "type": "open",
+      "points": 3,
+      "question": "Spiega la differenza tra responsabilità illimitata e responsabilità limitata. Per ciascuna indica in quali forme d'impresa si trova e fai un esempio concreto di che cosa rischia chi ne fa parte in caso di debiti.",
+      "explanation": "Traccia di correzione (risposta corposa attesa). Deve chiarire che con la responsabilità ILLIMITATA il titolare o socio risponde dei debiti anche con i beni personali (casa, risparmi), perché il patrimonio dell'impresa e quello personale non sono separati (autonomia patrimoniale imperfetta): si trova nell'impresa individuale e nelle società di persone (SNC; accomandatario della SAS). Esempio: in una SNC un socio può perdere anche la casa. Con la responsabilità LIMITATA il socio rischia solo il capitale investito, perché il patrimonio della società è separato (autonomia perfetta): si trova nelle società di capitali (SRL, SpA) e per l'accomandante della SAS. Esempio: se una SRL fallisce con debiti superiori al suo patrimonio, i soci perdono solo le quote versate. Valutazione piena a chi definisce entrambi i concetti, li collega alle forme giuste e porta un esempio per ciascuna."
+    },
+    {
+      "id": "q17",
+      "type": "open",
+      "points": 3,
+      "question": "Descrivi, passo dopo passo, il percorso che una persona deve seguire per far nascere davvero la propria impresa, dalle prime scelte fino all'apertura al pubblico. Indica gli adempimenti principali e a che cosa servono.",
+      "explanation": "Traccia di correzione (risposta corposa attesa). Una risposta completa ripercorre i passi del Blocco C: 1) le scelte iniziali (forma giuridica, nome, luogo, codice ATECO che classifica l'attività); 2) per le società, l'atto dal notaio (atto costitutivo e statuto), non necessario per l'individuale; 3) l'apertura della partita IVA presso l'Agenzia delle Entrate; 4) la Comunicazione Unica, che con un solo invio iscrive l'impresa a Registro delle Imprese, Agenzia delle Entrate, INPS e INAIL (con firma digitale e PEC); 5) la SCIA allo Sportello Unico (SUAP), che consente di aprire subito con l'autocertificazione, mentre il Comune controlla entro 60 giorni; 6) i requisiti (personali, morali, professionali, igienico-sanitari) per il settore alimentare. Valutazione piena a chi elenca i passi in ordine e spiega la funzione di almeno ComUnica e SCIA."
+    },
+    {
+      "id": "q18",
+      "type": "open",
+      "points": 3,
+      "question": "Una pasticcera apre come impresa individuale in regime forfettario e nel primo anno incassa 60.000 euro di ricavi; per la sua attività il coefficiente è del 40% e, essendo una nuova attività, applica l'aliquota agevolata del 5%. Calcola l'imposta che paga. Spiega poi perché, anche in un anno andato male, dovrà comunque versare dei contributi all'INPS.",
+      "explanation": "Traccia di correzione (risposta corposa attesa). Parte di calcolo: il reddito imponibile è il 40% di 60.000 = 24.000 euro; l'imposta è il 5% di 24.000 = 1.200 euro. La risposta deve mostrare il procedimento, non solo il numero. Parte teorica (dall'approfondimento sui costi): i contributi INPS degli artigiani sono in gran parte fissi (circa 4.500 euro l'anno) e vanno versati anche se l'attività guadagna poco o chiude in perdita; solo sulla parte di reddito oltre un minimale si aggiunge una percentuale. Valutazione piena a chi calcola correttamente 24.000 e 1.200 euro con il procedimento e spiega la natura fissa dei contributi. Nota: è una domanda che richiede lo studio dell'approfondimento sul forfettario."
+    },
+    {
+      "id": "q19",
+      "type": "open",
+      "points": 3,
+      "question": "Un'impresa dolciaria vuole crescere molto e ha bisogno di raccogliere grandi capitali. Spiega quale forma societaria è più adatta e perché. Approfondisci poi che cosa significa per una società 'quotarsi in borsa', quali vantaggi e quali rischi comporta, facendo se possibile un esempio di azienda quotata e una non quotata.",
+      "explanation": "Traccia di correzione (risposta corposa attesa). Prima parte (dalla lezione): la forma adatta è la SpA, perché il capitale è diviso in azioni facili da comprare e vendere, così l'impresa raccoglie denaro da moltissimi investitori; le azioni circolano liberamente, a differenza delle quote della SRL. Questa parte deve essere padroneggiata anche da chi non ha studiato gli approfondimenti. Seconda parte (dall'approfondimento sui mercati finanziari): quotarsi significa aprire le azioni al pubblico per raccogliere capitali; il vantaggio è la grande disponibilità di denaro per crescere, il costo sono regole severe, l'obbligo di pubblicare i conti e la condivisione del controllo con migliaia di azionisti. Esempio di quotata: il gruppo Campari; esempi di non quotate (familiari): Ferrero, Barilla. Valutazione piena a chi tratta bene la SpA e le azioni e sviluppa in modo corretto il tema della quotazione con almeno un esempio. Chi non ha studiato gli approfondimenti può rispondere solo alla prima parte, ottenendo un punteggio parziale."
+    }
+  ]
+}

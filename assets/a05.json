@@ -1,0 +1,95 @@
+{
+  "classe": "4G",
+  "alunni": [
+    {
+      "pin": "34537",
+      "cognome": "Bejdo",
+      "nome": "Anita"
+    },
+    {
+      "pin": "46588",
+      "cognome": "Bertolone",
+      "nome": "Leonardo"
+    },
+    {
+      "pin": "26386",
+      "cognome": "Chiavazza",
+      "nome": "Marco"
+    },
+    {
+      "pin": "30916",
+      "cognome": "Forno",
+      "nome": "Simone"
+    },
+    {
+      "pin": "61134",
+      "cognome": "Galvagno",
+      "nome": "Daniele"
+    },
+    {
+      "pin": "17240",
+      "cognome": "Giribaldi",
+      "nome": "Nicolò"
+    },
+    {
+      "pin": "64851",
+      "cognome": "Merlo",
+      "nome": "Ettore"
+    },
+    {
+      "pin": "88115",
+      "cognome": "Ottoboni",
+      "nome": "Matteo"
+    },
+    {
+      "pin": "92193",
+      "cognome": "Piccarolo",
+      "nome": "Pietro Carlo"
+    },
+    {
+      "pin": "37951",
+      "cognome": "Porello",
+      "nome": "Eleonora"
+    },
+    {
+      "pin": "26432",
+      "cognome": "Porrovecchio",
+      "nome": "Francesco"
+    },
+    {
+      "pin": "59855",
+      "cognome": "Prezioso",
+      "nome": "Giada"
+    },
+    {
+      "pin": "71179",
+      "cognome": "Raddi",
+      "nome": "Leonardo"
+    },
+    {
+      "pin": "88133",
+      "cognome": "Robba",
+      "nome": "Giulia"
+    },
+    {
+      "pin": "79548",
+      "cognome": "Rolfo",
+      "nome": "Vanessa"
+    },
+    {
+      "pin": "16557",
+      "cognome": "Rovere",
+      "nome": "Giulia"
+    },
+    {
+      "pin": "72296",
+      "cognome": "Sugliano",
+      "nome": "Chiara"
+    },
+    {
+      "pin": "15816",
+      "cognome": "Vilhem",
+      "nome": "Elena"
+    }
+  ]
+}
